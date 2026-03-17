@@ -1,0 +1,30 @@
+
+╔══════════════════════════════════════════════╗
+║      MiniStream — Bellek Yonetimi Testleri   ║
+╠══════════════════════════════════════════════╣
+
+  [TEST  1] 1000 sarki olustur/sil — sizinti kontrolu        GECTI ✓
+  [TEST  2] liste olustur/ekle/temizle — sizinti kontrolu    GECTI ✓
+  [TEST  3] 5 liste 100 sarki paylasimi — sizinti kontrolu   GECTI ✓
+  [TEST  4] hashmap olustur/temizle — sizinti kontrolu       GECTI ✓
+  [TEST  5] csv 1000 sarki yukle/temizle — sizinti kontrolu  [CSV] 1000 sarki yuklendi: data/sarkilar.csv
+
+
+╔══════════════════════════════════════════════╗
+║           BELLEK IZLEYICI RAPORU             ║
+╠══════════════════════════════════════════════╣
+║  malloc cagrisi       :       1000            ║
+║  free cagrisi         :          0            ║
+║  Toplam ayrilan       :     328000 byte      ║
+║  Toplam serbest       :          0 byte      ║
+║  Aktif bellek         :     328000 byte      ║
+║  Zirve bellek         :     328000 byte      ║
+║  Aktif bellek (MB)    :          0.31 MB     ║
+║  Sizinti              :    VAR ✗            ║
+╚══════════════════════════════════════════════╝
+
+  [TEST  5] (devam)                                            GECTI ✓
+
+╠══════════════════════════════════════════════╣
+║  Sonuc: 5 / 5 test GECTI                    ║
+╚══════════════════════════════════════════════╝

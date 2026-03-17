@@ -1,0 +1,31 @@
+
+╔══════════════════════════════════════════════╗
+║       MiniStream — Temel Birim Testleri      ║
+╠══════════════════════════════════════════════╣
+
+  [TEST  1] sarki_olustur — alan kontrolu                    GECTI ✓
+  [TEST  2] liste_sarki_ekle — pointer paylasimi             GECTI ✓
+  [TEST  3] ref_sayisi — 2 liste paylasimi senaryosu         GECTI ✓
+  [TEST  4] liste — kapasite buyume (10 -> 20)               GECTI ✓
+  [TEST  5] hashmap — ekle ve ara                            GECTI ✓
+  [TEST  6] linked list — lineer arama                       GECTI ✓
+  [TEST  7] csv_yukle — 100 sarki yukle                      [CSV] 100 sarki yuklendi: data/sarkilar.csv
+GECTI ✓
+
+╠══════════════════════════════════════════════╣
+║  Sonuc: 7 / 7 test GECTI                    ║
+╚══════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════╗
+║           BELLEK IZLEYICI RAPORU             ║
+╠══════════════════════════════════════════════╣
+║  malloc cagrisi       :        233            ║
+║  free cagrisi         :        233            ║
+║  Toplam ayrilan       :      81416 byte      ║
+║  Toplam serbest       :      81416 byte      ║
+║  Aktif bellek         :          0 byte      ║
+║  Zirve bellek         :      32800 byte      ║
+║  Aktif bellek (MB)    :          0.00 MB     ║
+║  Sizinti              :    YOK ✓            ║
+╚══════════════════════════════════════════════╝
+
